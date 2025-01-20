@@ -38,6 +38,7 @@ class Usercard extends Component {
     const {match} = this.props
     const {params} = match
     const {id} = params
+    const x=Number(id)
     const url = `https://jsonplaceholder.typicode.com/users`
     const options = {
       method: 'GET',
@@ -68,7 +69,7 @@ class Usercard extends Component {
         Username: each.username,
         Website: each.website,
       }))
-      const DATA = Data.filter(each => each.Id == id)
+      const DATA = Data.filter(each => each.Id === x)
       this.setState({DATA: DATA[0], Loading: api.success})
     } else {
       this.setState({Loading: api.failure})
