@@ -1,0 +1,108 @@
+.arrow {
+  color: white;
+  font-size: 30px;
+  margin: 30px;
+}
+.w10 {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.w90 {
+  width: 90%;
+  padding-left: 70px;
+}
+.cont1 {
+  display: flex;
+}
+
+.pro {
+  color: white;
+  font-size: 60px;
+  margin-top: 20px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.name {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 21px;
+}
+.star {
+  color: #fbbf24;
+  font-size: 21px;
+}
+.phone {
+  color: white;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.row {
+  display: flex;
+}
+.rowd {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+@media screen and (max-width: 767px) {
+  .rowd {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .cont20 {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+.cont20 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.locationi {
+  font-size: 19px;
+  color: white;
+  margin-right: 8px;
+}
+
+.loaction-text {
+  font-size: 15px;
+  color: white;
+  font-weight: 700;
+  margin-top: 2px;
+  margin-right: 10px;
+}
+.hri {
+  width: 100%;
+  border-color: #b6c5ff;
+  margin-top: 20px;
+}
+.dec {
+  text-decoration: none;
+}
+.star {
+  color: #fbbf24;
+  font-size: 21px;
+}
+.phone {
+  color: white;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.catch {
+  color: white;
+  font-family: 'Roboto';
+}
+.c {
+  font-family: 'Caveat';
+  color: white;
+}

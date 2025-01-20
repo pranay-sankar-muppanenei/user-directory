@@ -1,0 +1,120 @@
+.bg-container {
+  display: flex;
+  overflow: hidden;
+}
+@media screen and (max-width: 767px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar {
+    min-width: 100vw;
+  }
+  .main-bar {
+    min-width: 100vw;
+  }
+  .search-container {
+    width: 100px;
+  }
+}
+
+.bang {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 200px;
+  align-items: center;
+  height: 30vh;
+}
+
+.sidebar {
+  width: 20vw;
+  min-height: 60vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  box-sizing: border-box;
+}
+.naming {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 20px;
+}
+.rad {
+  display: flex;
+  flex-direction: column;
+}
+.mt {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.lab {
+  color: white;
+}
+.main-bar {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  background-color: black;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.user-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.search-container {
+  width: 300px;
+  display: flex;
+}
+.search-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 20%;
+  background-color: #121212;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  outline: none;
+}
+.search {
+  width: 80%;
+  height: 35px;
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #b6c5ff;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  outline: none;
+}
+.search-img {
+  height: 18px;
+  width: 18px;
+  color: white;
+}
+.sunny {
+  color: white;
+  font-size: 40px;
+}
+.align {
+  display: flex;
+  justify-content: space-between;
+}
+.moon {
+  color: black;
+  font-size: 40px;
+}
+.but {
+  background-color: red;
+  border: none;
+}
+.red{
+  color: red;
+}
